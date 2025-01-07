@@ -11,7 +11,7 @@ def binarysearch(arr,t):
         m = (l+r)//2
         if arr[m] == t:
             return m
-        elif l < arr[m]:
+        elif arr[m] < t:
             l = m+1
         else:
             h = m-1
