@@ -21,8 +21,8 @@ largsmall(arr)
 
 # find middle element
 def mid(arr):
-    m = len(arr)-1
-    print(m)
+    m = (len(arr)-1)//2
+    print(m, 'mid')
 mid(arr)
 #this gives just the duplicate list values    
 def dup(arr):
