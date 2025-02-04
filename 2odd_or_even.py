@@ -16,7 +16,7 @@ These conditions can be used in several ways, most commonly in "if statements" a
 An "if statement" is written by using the if keyword.
 """
 n = int(input("enter "))
-if (n/2==0):
+if (n%2==0):
     print("even")
 else:
     print("odd")
